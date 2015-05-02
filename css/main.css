@@ -1,15 +1,15 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
-  body {background-image: url(../BG1.jpg);
-  background-position:bottom left
+  body { background: url(../BG1.jpg) no-repeat center center fixed;
+  background-size: cover;
   }
 
 h1 {
   color: #FFF;
   text-align: center;
-  font: Arial, Helvetica, sans-serif;
-  font-size: 5em;
+  font-family: "Trebuchet MS", Arial, Times, serif;
+  font-size: 4em;
 }
 
 p {
@@ -20,5 +20,7 @@ p {
 }
 
 #links {
-  
+  color: #FFF;
+  text-align: center;
+  font-size: 175%;
 }

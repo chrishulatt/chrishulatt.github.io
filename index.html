@@ -6,14 +6,55 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $("links").hover(function(){
+            $("links").css("color", "#D80000");
+            },function(){
+            $("links").css("color", "#FF8C00");
+        });
+    });
+    </script>
+
+
 </head>
 <body>
-  <h1>Chris's Page</h1>
+  <h1>Chris Hulatt</h1>
+
   <div id="links" class="links">
- 			<a href="#" class="fa fa-twitter"><br /><span>Twitter</span> </a>
-			<a href="#" class="fa fa-facebook"><br /><span>Facebook</span></a>
-			<a href="#" class="fa fa-github"><br /><span>Github</span></a>
-			<a href="#" class="fa fa-envelope-o"><br /><span>Email</span></a>
+
+    <a href="http://www.google.com">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+      <i class="fa fa-twitter fa-stack-1x fa-forfun"></i>
+    </span></a>
+
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+      <i class="fa fa-facebook fa-stack-1x fa-forfun"></i>
+    </span>
+
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-forfun"></i>
+    </span>
+
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-github fa-stack-1x fa-forfun"></i>
+    </span>
+
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+      <i class="fa fa-envelope-o fa-stack-1x fa-forfun"></i>
+    </span>
+
     </div>
 </body>
 </html>
